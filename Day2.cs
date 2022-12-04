@@ -74,7 +74,7 @@ namespace AdventOfCode2022
                         return 6;
                 }
             }
-            throw new NullReferenceException("GetRoundScore: Da Fuck happened here?!?");
+            throw new Exception("GetRoundScore: Da Fuck happened here?!?");
         }
 
         private Move GetYourMove(Move opponentMove, char outcome)
@@ -115,7 +115,7 @@ namespace AdventOfCode2022
                         return Move.Rock;
                 }
             }
-            throw new NullReferenceException("GetYourMove: Da Fuck happened here?!?");
+            throw new Exception("GetYourMove: Da Fuck happened here?!?");
 
         }
     }
